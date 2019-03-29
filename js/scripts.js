@@ -19,6 +19,9 @@ $(document).ready(function(){
 
     } else if (age < 80 && companySize === "Big" && serverSideOrApplictions === "Server-side"){
       $("#suggestionThree").show();
+
+    } else if (companySize === "No-matter" && whichEnd === "I don't know" && fullTimeOrPartTime === "Full-time") {
+      $("#suggestionFour").show();
     }
 
 
