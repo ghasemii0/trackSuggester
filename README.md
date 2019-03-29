@@ -1,4 +1,4 @@
-# _{Tracker suggestion for Epicodus future students}_
+# Tracker suggestion for Epicodus future students
 
 #### _{Brief description of application}, {Date of current version}_
 
@@ -6,18 +6,22 @@
 
 ## Description
 
-_{gfdfgdd}_
+Based on the answers that user insert, they will see which programing language fits for them to study.
 
 ## Setup/Installation Requirements
 
 * Clone the repository https://github.com/ghasemii0/trackSuggester
 * Click on index.html
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+There is only four suggestions for the user .Only these four groups has result in if statements:
+if(age, companySize, whichEnd, fullTimeOrPartTime, serverSideOrApplications)
+if(companySize, whichEnd, serverSideOrApplications)
+if(age, companySize, serverSideOrApplications)
+if(companySize, whichEnd, fullTimeOrPartTime)
 
 ## Support and contact details
 
