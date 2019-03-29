@@ -14,11 +14,43 @@
         <h5>Please answer the 5 questions below to find which language is the right language for you to learn.<h5>
 
         <form id="student">
+
+
+          <p>How old are you?</p>
+          <div class="form-group">
+            <label for="input1">age:</label>
+            <input id="age" class="form-control" type="text">
+          </div>
+
+
+
+          <p>Are you wishing to work in a big company or a small company?</p>
+          <select class="form-control" id="bigOrSmall">
+            <option>big</option>
+            <option>small</option>
+            </select>
+
+
           <p>Do you want to focus on front_end or back-end development?</p>
           <select class="form-control" id="frontEnd-backEnd">
             <option>front-end</option>
             <option>back-end</option>
+            <option>I don't know</option>
             </select>
+
+          <p>Do you want to learn a language that has been used only in USA or world wide?</p>
+          <div class="radio">
+            <label>
+              <input type="radio" name="flavor" value="USA" checked>
+              USA
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="flavor" value="World-Wide">
+              World-Wide
+            </label>
+          </div>
 
 
           <button type="submit" class="btn-success">See the Result!</button>
