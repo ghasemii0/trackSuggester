@@ -23,10 +23,12 @@ $(document).ready(function(){
     } else if (companySize === "No-matter" && whichEnd === "I don't know" && fullTimeOrPartTime === "Full-time") {
       $("#suggestionFour").show();
     }
-
-
-
-
     event.preventDefault();
+  });
+});
+
+$(document).ready(function(){
+  $(".clickable").click(function(){
+    $("img").fadeIn();
   });
 });
